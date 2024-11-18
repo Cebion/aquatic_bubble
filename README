@@ -1,0 +1,51 @@
+Aquatic Bubble - (c) 2005 Losers
+--------------------------------
+
+Descripción:
+-----------
+	Videojuego donde debemos atrapar a todos los enemigos del nivel
+	de una manera muy similar al juego 'snow bros'.
+
+
+Licencia:
+--------
+	Este programa es Software Libre distribuido bajo los términos de
+	la Licencia Pública General de GNU (GPL), por favor lea el
+	archivo COPYING (oficial) o su traducción al español COPYING_ESP.
+
+
+Sitio Web:
+----------
+	www.loosersjuegos.com.ar
+	www.videojuegoslibres.com.ar
+
+
+Teclas:
+-------
+	Jugador 1:
+		direccionales = mover al personaje
+		space = disparar
+		* Se pueden reconfigurar
+		
+	Otras:
+		F1 = habilita/deshabilita los sonidos
+		F2 = habilita/deshabilita las musicas
+		F3 = cambia de resolución (640x480 <-> 320x240)
+		F4 = pantalla completa (sólo en sistemas GNU/Linux)
+		F10 = sale inmediatamente
+
+
+Parametros
+----------
+	usar: ./aqbubble [OPCIONES]
+
+	Donde [OPCIONES] puede ser una de las siguientes:
+
+	  --help         muestra este mensaje - show this message
+	  --ns           sin sonido - disable sound
+	  --nm           sin musicas - disable music
+	  --fullscreen   pantalla completa - full screen
+	  --low          modo 320x240 - mode 320x240px
+	  --licencia     imprime los términos de uso - show GPL license
+	  --test         (temporal) inicia directamente el juego
+

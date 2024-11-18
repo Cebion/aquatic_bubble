@@ -1,0 +1,16 @@
+2005-03-16: Hugo Ruscitti
+	- Soporte para autoconf
+	- internacionalización con getext a inglés y español
+	- sistema de vidas y créditos mejorado (soporta 'continues')
+
+
+2005-03-11  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Add intl,
+	(ACLOCAL_AMFLAGS): New variable.
+	(EXTRA_DIST): Add config.rpath mkinstalldirs.
+	* configure.in (AC_OUTPUT): Add intl/Makefile,
+
+26-02-05: Hugo Ruscitti
+	- Mejoras en el bucle principal (mundo:correr) para utilizar menos 
+	recursos de CPU

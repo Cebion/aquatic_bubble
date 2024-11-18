@@ -1,0 +1,435 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-16 20:45-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/audio.cpp:54
+#, c-format
+msgid "- Audio system disabled because of errors\n"
+msgstr ""
+
+#: ../src/audio.cpp:61
+#, c-format
+msgid "+ Starting audio system\n"
+msgstr ""
+
+#: ../src/audio.cpp:78
+#, c-format
+msgid "- Audio system disabled from paremeters\n"
+msgstr ""
+
+#: ../src/audio.cpp:98
+#, c-format
+msgid "Error in audio subsystem: %s\n"
+msgstr ""
+
+#: ../src/audio.cpp:104
+#, c-format
+msgid "Couldn't set 44100 Hz 16 bits audio: %s\n"
+msgstr ""
+
+#: ../src/audio.cpp:109
+#, c-format
+msgid "+ Starting sound subsystem\n"
+msgstr ""
+
+#: ../src/audio.cpp:168
+#, c-format
+msgid "Couldn't enable music because of audio subsystem is disabled\n"
+msgstr ""
+
+#: ../src/audio.cpp:183
+#, c-format
+msgid "Couldn't enable sound because of sound subsystem is disabled\n"
+msgstr ""
+
+#: ../src/barra.cpp:124 ../src/juego.cpp:296
+msgid "GAME OVER"
+msgstr ""
+
+#: ../src/barra.cpp:133
+msgid "CONTINUE?"
+msgstr ""
+
+#: ../src/cadena.cpp:270
+#, c-format
+msgid "In cadena.cpp (line %d): invalid %s value\n"
+msgstr ""
+
+#: ../src/cadena.cpp:433
+#, c-format
+msgid "in source code (%s), animation not expected\n"
+msgstr ""
+
+#: ../src/cadena.cpp:530
+#, c-format
+msgid "in source code (%s), not found graphic for '%c'\n"
+msgstr ""
+
+#: ../src/cadena.cpp:587
+#, c-format
+msgid "Can't select option, marc not found (function %s)\n"
+msgstr ""
+
+#: ../src/cadena.cpp:609
+#, c-format
+msgid "Can't ??? option, marc not found (function %s)\n"
+msgstr ""
+
+#: ../src/cadena.cpp:631 ../src/cadena.cpp:655
+#, c-format
+msgid "Can't found crosses (function %s)\n"
+msgstr ""
+
+#: ../src/dialogo.cpp:154
+msgid "Can't open file:"
+msgstr ""
+
+#: ../src/dialogo.cpp:156
+msgid "Press any key to quit"
+msgstr ""
+
+#: ../src/grafico.cpp:56
+#, c-format
+msgid "- Can't open %s file\n"
+msgstr ""
+
+#: ../src/grafico.cpp:71
+#, c-format
+msgid "- Can't scale %s image file\n"
+msgstr ""
+
+#: ../src/grafico.cpp:109
+#, c-format
+msgid "in function %s, invalid graphic number\n"
+msgstr ""
+
+#: ../src/grafico.cpp:151
+#, c-format
+msgid "Can't show graphic number %d, out of range [0,%d]\n"
+msgstr ""
+
+#: ../src/grafico.cpp:277
+#, c-format
+msgid "invalid %s value in function %s\n"
+msgstr ""
+
+#: ../src/grafico.cpp:465
+#, c-format
+msgid "- error in function %s, can't copy image\n"
+msgstr ""
+
+#: ../src/juego.cpp:95
+msgid "PAUSE"
+msgstr ""
+
+#: ../src/juego.cpp:134
+msgid "PAUSA"
+msgstr ""
+
+#: ../src/juego.cpp:163
+#, c-format
+msgid "Invalid state in function %s\n"
+msgstr ""
+
+#: ../src/juego.cpp:260
+#, c-format
+msgid "Can't pass to next level\n"
+msgstr ""
+
+#: ../src/juego.cpp:345
+msgid "LEVEL "
+msgstr ""
+
+#: ../src/juego.cpp:358
+msgid "LEVEL COMPLETE"
+msgstr ""
+
+#: ../src/libgrafico.cpp:72
+msgid "LOADING IMAGES..."
+msgstr ""
+
+#: ../src/main.cpp:79
+#, c-format
+msgid "usage: %s [OPTIONS]\n"
+msgstr ""
+
+#: ../src/main.cpp:81
+#, c-format
+msgid "Avariable [OPTIONS]:\n"
+msgstr ""
+
+#: ../src/main.cpp:83
+#, c-format
+msgid "  --help         show this message\n"
+msgstr ""
+
+#: ../src/main.cpp:84
+#, c-format
+msgid "  --ns           disable sound\n"
+msgstr ""
+
+#: ../src/main.cpp:85
+#, c-format
+msgid "  --nm           disable music\n"
+msgstr ""
+
+#: ../src/main.cpp:86
+#, c-format
+msgid "  --fullscreen   full screen\n"
+msgstr ""
+
+#: ../src/main.cpp:87
+#, c-format
+msgid "  --low          mode 320x240px\n"
+msgstr ""
+
+#: ../src/main.cpp:88
+#, c-format
+msgid "  --license      print license terms\n"
+msgstr ""
+
+#: ../src/main.cpp:89
+#, c-format
+msgid "  --test         init the game immediately\n"
+msgstr ""
+
+#: ../src/main.cpp:90
+#, c-format
+msgid "\n"
+msgstr ""
+
+#: ../src/main.cpp:100
+#, c-format
+msgid "  with '--help' display help and exit\n"
+msgstr ""
+
+#: ../src/main.cpp:114
+#, c-format
+msgid ""
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+msgstr ""
+
+#: ../src/main.cpp:120
+#, c-format
+msgid ""
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"    GNU General Public License for more details.\n"
+"\n"
+msgstr ""
+
+#: ../src/main.cpp:126
+#, c-format
+msgid ""
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this program; if not, write to the Free Software\n"
+"    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  "
+"USA    \n"
+msgstr ""
+
+#: ../src/main.cpp:132
+#, c-format
+msgid "contact us: \n"
+msgstr ""
+
+#: ../src/main.cpp:192
+#, c-format
+msgid ""
+"\n"
+"invalid option '%s'\n"
+"\n"
+msgstr ""
+
+#: ../src/marcas.cpp:140
+#, c-format
+msgid "Can't save %s file\n"
+msgstr ""
+
+#: ../src/menu.cpp:211
+msgid "ENTER PASSWORD:"
+msgstr ""
+
+#: ../src/menu.cpp:216
+msgid "NEW GAME"
+msgstr ""
+
+#: ../src/menu.cpp:217
+msgid "OPTIONS"
+msgstr ""
+
+#: ../src/menu.cpp:218 ../src/texto.cpp:52
+msgid "CREDITS"
+msgstr ""
+
+#: ../src/menu.cpp:219
+msgid "RECORDS"
+msgstr ""
+
+#: ../src/menu.cpp:220
+msgid "QUIT"
+msgstr ""
+
+#: ../src/menu.cpp:224
+msgid "AUDIO"
+msgstr ""
+
+#: ../src/menu.cpp:225
+msgid "VIDEO"
+msgstr ""
+
+#: ../src/menu.cpp:226
+msgid "CONTROLS"
+msgstr ""
+
+#: ../src/menu.cpp:227 ../src/menu.cpp:234 ../src/menu.cpp:240
+#: ../src/menu.cpp:246 ../src/menu.cpp:263
+msgid "RETURN"
+msgstr ""
+
+#: ../src/menu.cpp:231
+msgid "ONE PLAYER"
+msgstr ""
+
+#: ../src/menu.cpp:232
+msgid "TWO PLAYERS"
+msgstr ""
+
+#: ../src/menu.cpp:233
+msgid "ENTER PASSWORD"
+msgstr ""
+
+#: ../src/menu.cpp:238
+msgid "CHANGE PL1 KEYS"
+msgstr ""
+
+#: ../src/menu.cpp:239
+msgid "CHANGE PL2 KEYS"
+msgstr ""
+
+#: ../src/menu.cpp:244
+msgid "SOUND >"
+msgstr ""
+
+#: ../src/menu.cpp:245
+msgid "MUSIC >"
+msgstr ""
+
+#: ../src/menu.cpp:261
+msgid "FULL SCREEN >"
+msgstr ""
+
+#: ../src/menu.cpp:262
+msgid "REDUCED MODE >"
+msgstr ""
+
+#: ../src/menu.cpp:280
+msgid "LEFT : ------"
+msgstr ""
+
+#: ../src/menu.cpp:281
+msgid "RIGHT: ------"
+msgstr ""
+
+#: ../src/menu.cpp:282
+msgid "JUMP : ------"
+msgstr ""
+
+#: ../src/menu.cpp:283
+msgid "FIRE : ------"
+msgstr ""
+
+#: ../src/menu.cpp:328
+#, c-format
+msgid "invalid option in function %s\n"
+msgstr ""
+
+#: ../src/menu.cpp:639
+msgid "THIS IS CORRECT ?"
+msgstr ""
+
+#: ../src/menu.cpp:761
+msgid "OK, PRESS FIRE"
+msgstr ""
+
+#: ../src/menu.cpp:763
+msgid "INVALID PASSWORD"
+msgstr ""
+
+#: ../src/mundo.cpp:283
+#, c-format
+msgid "error, escene not found in function %s\n"
+msgstr ""
+
+#: ../src/mundo.cpp:292
+#, c-format
+msgid "Can't change escene\n"
+msgstr ""
+
+#: ../src/mundo.cpp:323
+#, c-format
+msgid "Can't change video mode\n"
+msgstr ""
+
+#: ../src/mundo.cpp:365
+#, c-format
+msgid "couldn't copy screen: %s\n"
+msgstr ""
+
+#: ../src/mundo.cpp:418
+#, c-format
+msgid ""
+"\n"
+"Thanks for play this game\n"
+"\n"
+msgstr ""
+
+#: ../src/nivel.cpp:65
+#, c-format
+msgid "Can't load background image: %s\n"
+msgstr ""
+
+#: ../src/records.cpp:153
+msgid "BEST RECORDS"
+msgstr ""
+
+#: ../src/simple.cpp:54
+#, c-format
+msgid "invalid animation number in %s\n"
+msgstr ""
+
+#: ../src/texto.cpp:54
+msgid "PROGRAMING:"
+msgstr ""
+
+#: ../src/texto.cpp:58
+msgid "GRAPHICS:"
+msgstr ""
+
+#: ../src/texto.cpp:118
+#, c-format
+msgid "lim_cadena is out of range of 0 to 100\n"
+msgstr ""
+
+#: ../src/transicion.cpp:67
+#, c-format
+msgid "Can't create images for transition\n"
+msgstr ""
